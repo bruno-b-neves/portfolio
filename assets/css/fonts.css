@@ -1,0 +1,48 @@
+/* Roboto Variable Fonts */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+	src: url('./fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 100 900;
+	font-stretch: 75% 125%;
+	src: url('./fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+	font-display: swap;
+}
+
+/* Static fallbacks */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./fonts/Roboto/static/Roboto-Regular.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./fonts/Roboto/static/Roboto-Bold.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 400;
+	src: url('./fonts/Roboto/static/Roboto-Italic.ttf') format('truetype');
+	font-display: swap;
+}
+
+/* Utility class to use Roboto */
+.font-roboto {
+	font-family: 'Roboto', Arial, sans-serif;
+}
