@@ -2,7 +2,7 @@
   <div class="d-flex justify-content-between w-100">
     <div v-for="build in builds" :key="build.name">
       <b-card align="center" class="border-secondary pb-1">
-        <font-icon :icon="build.icon" size="xl"></font-icon>
+        <font-icon :icon="build.icon" size="3x"></font-icon>
       </b-card>
     </div>
   </div>

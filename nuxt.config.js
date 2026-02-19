@@ -46,6 +46,10 @@ export default {
    ** Build configuration
    */
   build: {
+    transpile: [/^bootstrap-vue/],
+    babel: {
+      compact: true
+    },
     /*
      ** You can extend webpack config here
      */
