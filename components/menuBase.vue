@@ -22,7 +22,7 @@
           >Projetos</b-nav-item
         >
       </b-navbar-nav>
-      <b-navbar-nav class="ml-auto" is-nav>
+      <b-navbar-nav class="ml-auto d-none" is-nav>
         <b-nav-item class="nav-right">
           <font-icon :icon="['fab', 'linkedin']" size="2x"></font-icon>
         </b-nav-item>

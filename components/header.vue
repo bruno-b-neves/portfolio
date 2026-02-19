@@ -8,7 +8,6 @@
             Desenvolvedor Frontend, com experiência em criação de interfaces web
             modernas, responsivas e performáticas.
           </p>
-          <b-link class="btn btn-primary">Vamos começar ></b-link>
         </div>
         <div class="box-img">
           <b-img
